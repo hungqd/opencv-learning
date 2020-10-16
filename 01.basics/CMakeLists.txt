@@ -13,6 +13,9 @@ target_link_libraries(sample01 ${OpenCV_LIBS} )
 add_executable(sample02 src/sample02.cpp)
 target_link_libraries(sample02 ${OpenCV_LIBS} )
 
+add_executable(sample03 src/sample03.cpp)
+target_link_libraries(sample03 ${OpenCV_LIBS} )
+
 macro(print_all_variables)
     message(STATUS "print_all_variables------------------------------------------{")
     get_cmake_property(_variableNames VARIABLES)
