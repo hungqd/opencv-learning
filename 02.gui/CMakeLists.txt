@@ -9,3 +9,6 @@ include_directories(${OpenCV_INCLUDE_DIR})
 
 add_executable(sample01 src/sample01.cpp)
 target_link_libraries(sample01 ${OpenCV_LIBS} )
+
+add_executable(sample02 src/sample02.cpp)
+target_link_libraries(sample02 ${OpenCV_LIBS} )
